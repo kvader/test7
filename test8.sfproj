@@ -1,0 +1,1059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6095f668-3d05-4fc0-a930-bdf78e4f4c62}</ProjectGuid>
+    <ApexVersion>42.0</ApexVersion>
+    <Name>test8</Name>
+    <AssemblyName>test8</AssemblyName>
+    <RootNamespace>test8</RootNamespace>
+    <ProjectVersion>6</ProjectVersion>
+    <PackageVersion>1.14.7.4</PackageVersion>
+    <SyncOption>True</SyncOption>
+    <AntSupport>False</AntSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="AnonymousApex" />
+    <Folder Include="Soql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes/ContestantController.cls">
+      <PhysicalRelativePath>src/classes/ContestantController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/ContestantControllerTest.cls">
+      <PhysicalRelativePath>src/classes/ContestantControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/ContestantService.cls">
+      <PhysicalRelativePath>src/classes/ContestantService.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/ContestantServiceTest.cls">
+      <PhysicalRelativePath>src/classes/ContestantServiceTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_Answer.cls">
+      <PhysicalRelativePath>src/classes/fflib_Answer.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_AnswerTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_AnswerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_AnyOrder.cls">
+      <PhysicalRelativePath>src/classes/fflib_AnyOrder.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_AnyOrderTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_AnyOrderTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ApexMocks.cls">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocks.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ApexMocksConfig.cls">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocksConfig.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ApexMocksTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocksTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ApexMocksUtils.cls">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocksUtils.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ApexMocksUtilsTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocksUtilsTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_Application.cls">
+      <PhysicalRelativePath>src/classes/fflib_Application.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ApplicationTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_ApplicationTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ArgumentCaptor.cls">
+      <PhysicalRelativePath>src/classes/fflib_ArgumentCaptor.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ArgumentCaptorTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_ArgumentCaptorTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_IDGenerator.cls">
+      <PhysicalRelativePath>src/classes/fflib_IDGenerator.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_IDGeneratorTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_IDGeneratorTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_IMatcher.cls">
+      <PhysicalRelativePath>src/classes/fflib_IMatcher.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_Inheritor.cls">
+      <PhysicalRelativePath>src/classes/fflib_Inheritor.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_InheritorTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_InheritorTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_InOrder.cls">
+      <PhysicalRelativePath>src/classes/fflib_InOrder.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_InOrderTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_InOrderTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_InvocationOnMock.cls">
+      <PhysicalRelativePath>src/classes/fflib_InvocationOnMock.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ISObjectDomain.cls">
+      <PhysicalRelativePath>src/classes/fflib_ISObjectDomain.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ISObjectSelector.cls">
+      <PhysicalRelativePath>src/classes/fflib_ISObjectSelector.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_ISObjectUnitOfWork.cls">
+      <PhysicalRelativePath>src/classes/fflib_ISObjectUnitOfWork.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_Match.cls">
+      <PhysicalRelativePath>src/classes/fflib_Match.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MatcherDefinitions.cls">
+      <PhysicalRelativePath>src/classes/fflib_MatcherDefinitions.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MatcherDefinitionsTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_MatcherDefinitionsTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MatchersReturnValue.cls">
+      <PhysicalRelativePath>src/classes/fflib_MatchersReturnValue.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MatchTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_MatchTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MethodArgValues.cls">
+      <PhysicalRelativePath>src/classes/fflib_MethodArgValues.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MethodArgValuesTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_MethodArgValuesTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MethodCountRecorder.cls">
+      <PhysicalRelativePath>src/classes/fflib_MethodCountRecorder.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MethodReturnValue.cls">
+      <PhysicalRelativePath>src/classes/fflib_MethodReturnValue.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MethodReturnValueRecorder.cls">
+      <PhysicalRelativePath>src/classes/fflib_MethodReturnValueRecorder.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MethodVerifier.cls">
+      <PhysicalRelativePath>src/classes/fflib_MethodVerifier.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_Mocks.cls">
+      <PhysicalRelativePath>src/classes/fflib_Mocks.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_MyList.cls">
+      <PhysicalRelativePath>src/classes/fflib_MyList.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_QualifiedMethod.cls">
+      <PhysicalRelativePath>src/classes/fflib_QualifiedMethod.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_QualifiedMethodAndArgValues.cls">
+      <PhysicalRelativePath>src/classes/fflib_QualifiedMethodAndArgValues.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_QualifiedMethodTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_QualifiedMethodTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_QueryFactory.cls">
+      <PhysicalRelativePath>src/classes/fflib_QueryFactory.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_QueryFactoryTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_QueryFactoryTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SecurityUtils.cls">
+      <PhysicalRelativePath>src/classes/fflib_SecurityUtils.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SecurityUtilsTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_SecurityUtilsTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectDescribe.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectDescribe.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectDescribeTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectDescribeTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectDomain.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectDomain.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectDomainTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectDomainTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectMocks.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectMocks.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectSelector.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectSelector.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectSelectorTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectSelectorTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectUnitOfWork.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectUnitOfWork.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SObjectUnitOfWorkTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_SObjectUnitOfWorkTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_StringBuilder.cls">
+      <PhysicalRelativePath>src/classes/fflib_StringBuilder.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_StringBuilderTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_StringBuilderTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_System.cls">
+      <PhysicalRelativePath>src/classes/fflib_System.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_SystemTest.cls">
+      <PhysicalRelativePath>src/classes/fflib_SystemTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/fflib_VerificationMode.cls">
+      <PhysicalRelativePath>src/classes/fflib_VerificationMode.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/RaceController.cls">
+      <PhysicalRelativePath>src/classes/RaceController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/RaceControllerTest.cls">
+      <PhysicalRelativePath>src/classes/RaceControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/RaceService.cls">
+      <PhysicalRelativePath>src/classes/RaceService.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/RaceServiceTest.cls">
+      <PhysicalRelativePath>src/classes/RaceServiceTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/SeasonController.cls">
+      <PhysicalRelativePath>src/classes/SeasonController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/SeasonControllerTest.cls">
+      <PhysicalRelativePath>src/classes/SeasonControllerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/SeasonNewsletterScheduler.cls">
+      <PhysicalRelativePath>src/classes/SeasonNewsletterScheduler.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/SeasonNewsletterSchedulerTest.cls">
+      <PhysicalRelativePath>src/classes/SeasonNewsletterSchedulerTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/SeasonService.cls">
+      <PhysicalRelativePath>src/classes/SeasonService.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/SeasonServiceTest.cls">
+      <PhysicalRelativePath>src/classes/SeasonServiceTest.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/TestClass.cls">
+      <PhysicalRelativePath>src/classes/TestClass.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="customMetadata/TrackLapRecord.Circuit_Spa_Francorchamps.md">
+      <PhysicalRelativePath>src/customMetadata/TrackLapRecord.Circuit_Spa_Francorchamps.md</PhysicalRelativePath>
+      <SubType>CustomMetadata</SubType>
+    </Object>
+    <Object Include="customMetadata/TrackLapRecord.Nurburgring.md">
+      <PhysicalRelativePath>src/customMetadata/TrackLapRecord.Nurburgring.md</PhysicalRelativePath>
+      <SubType>CustomMetadata</SubType>
+    </Object>
+    <Object Include="customMetadata/TrackLapRecord.Silverstone_Circuit.md">
+      <PhysicalRelativePath>src/customMetadata/TrackLapRecord.Silverstone_Circuit.md</PhysicalRelativePath>
+      <SubType>CustomMetadata</SubType>
+    </Object>
+    <Object Include="objects/Account.object">
+      <PhysicalRelativePath>src/objects/Account.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/AccountCleanInfo.object">
+      <PhysicalRelativePath>src/objects/AccountCleanInfo.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/AccountContactRole.object">
+      <PhysicalRelativePath>src/objects/AccountContactRole.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Account_Management_Log__c.object">
+      <PhysicalRelativePath>src/objects/Account_Management_Log__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Activity.object">
+      <PhysicalRelativePath>src/objects/Activity.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Asset.object">
+      <PhysicalRelativePath>src/objects/Asset.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/AssetRelationship.object">
+      <PhysicalRelativePath>src/objects/AssetRelationship.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/AssistantProgress.object">
+      <PhysicalRelativePath>src/objects/AssistantProgress.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Campaign.object">
+      <PhysicalRelativePath>src/objects/Campaign.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/CampaignMember.object">
+      <PhysicalRelativePath>src/objects/CampaignMember.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Case.object">
+      <PhysicalRelativePath>src/objects/Case.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/CaseContactRole.object">
+      <PhysicalRelativePath>src/objects/CaseContactRole.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/CollaborationGroup.object">
+      <PhysicalRelativePath>src/objects/CollaborationGroup.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/CollaborationGroupMember.object">
+      <PhysicalRelativePath>src/objects/CollaborationGroupMember.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Contact.object">
+      <PhysicalRelativePath>src/objects/Contact.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/ContactCleanInfo.object">
+      <PhysicalRelativePath>src/objects/ContactCleanInfo.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/ContentVersion.object">
+      <PhysicalRelativePath>src/objects/ContentVersion.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Contestant__c.object">
+      <PhysicalRelativePath>src/objects/Contestant__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Contract.object">
+      <PhysicalRelativePath>src/objects/Contract.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/ContractContactRole.object">
+      <PhysicalRelativePath>src/objects/ContractContactRole.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/DandBCompany.object">
+      <PhysicalRelativePath>src/objects/DandBCompany.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Driver__c.object">
+      <PhysicalRelativePath>src/objects/Driver__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/DuplicateRecordItem.object">
+      <PhysicalRelativePath>src/objects/DuplicateRecordItem.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/DuplicateRecordSet.object">
+      <PhysicalRelativePath>src/objects/DuplicateRecordSet.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/EmailMessage.object">
+      <PhysicalRelativePath>src/objects/EmailMessage.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Event.object">
+      <PhysicalRelativePath>src/objects/Event.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/ExchangeUserMapping.object">
+      <PhysicalRelativePath>src/objects/ExchangeUserMapping.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/FeedItem.object">
+      <PhysicalRelativePath>src/objects/FeedItem.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/ForecastingCategoryMapping.object">
+      <PhysicalRelativePath>src/objects/ForecastingCategoryMapping.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Idea.object">
+      <PhysicalRelativePath>src/objects/Idea.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Lead.object">
+      <PhysicalRelativePath>src/objects/Lead.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/LeadCleanInfo.object">
+      <PhysicalRelativePath>src/objects/LeadCleanInfo.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Macro.object">
+      <PhysicalRelativePath>src/objects/Macro.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/MacroAction.object">
+      <PhysicalRelativePath>src/objects/MacroAction.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/MacroInstruction.object">
+      <PhysicalRelativePath>src/objects/MacroInstruction.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Market__c.object">
+      <PhysicalRelativePath>src/objects/Market__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Opportunity.object">
+      <PhysicalRelativePath>src/objects/Opportunity.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/OpportunityCompetitor.object">
+      <PhysicalRelativePath>src/objects/OpportunityCompetitor.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/OpportunityContactRole.object">
+      <PhysicalRelativePath>src/objects/OpportunityContactRole.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/OpportunityLineItem.object">
+      <PhysicalRelativePath>src/objects/OpportunityLineItem.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/OpportunityTeamMember.object">
+      <PhysicalRelativePath>src/objects/OpportunityTeamMember.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Order.object">
+      <PhysicalRelativePath>src/objects/Order.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/OrderItem.object">
+      <PhysicalRelativePath>src/objects/OrderItem.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/OrgDeleteRequest.object">
+      <PhysicalRelativePath>src/objects/OrgDeleteRequest.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/PartnerRole.object">
+      <PhysicalRelativePath>src/objects/PartnerRole.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Pricebook2.object">
+      <PhysicalRelativePath>src/objects/Pricebook2.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/PricebookEntry.object">
+      <PhysicalRelativePath>src/objects/PricebookEntry.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Product2.object">
+      <PhysicalRelativePath>src/objects/Product2.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/QuickText.object">
+      <PhysicalRelativePath>src/objects/QuickText.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/RaceData__c.object">
+      <PhysicalRelativePath>src/objects/RaceData__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Race__c.object">
+      <PhysicalRelativePath>src/objects/Race__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/RecordAction.object">
+      <PhysicalRelativePath>src/objects/RecordAction.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/RequestsForAccessSIQ.object">
+      <PhysicalRelativePath>src/objects/RequestsForAccessSIQ.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Scorecard.object">
+      <PhysicalRelativePath>src/objects/Scorecard.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/ScorecardAssociation.object">
+      <PhysicalRelativePath>src/objects/ScorecardAssociation.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/ScorecardMetric.object">
+      <PhysicalRelativePath>src/objects/ScorecardMetric.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Season__c.object">
+      <PhysicalRelativePath>src/objects/Season__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Site.object">
+      <PhysicalRelativePath>src/objects/Site.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/SocialPersona.object">
+      <PhysicalRelativePath>src/objects/SocialPersona.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Solution.object">
+      <PhysicalRelativePath>src/objects/Solution.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/StreamActivityAccess.object">
+      <PhysicalRelativePath>src/objects/StreamActivityAccess.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/StreamingChannel.object">
+      <PhysicalRelativePath>src/objects/StreamingChannel.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Task.object">
+      <PhysicalRelativePath>src/objects/Task.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Topic.object">
+      <PhysicalRelativePath>src/objects/Topic.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/TopicAssignment.object">
+      <PhysicalRelativePath>src/objects/TopicAssignment.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/TrackLapRecord__mdt.object">
+      <PhysicalRelativePath>src/objects/TrackLapRecord__mdt.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/User.object">
+      <PhysicalRelativePath>src/objects/User.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/UserProvisioningRequest.object">
+      <PhysicalRelativePath>src/objects/UserProvisioningRequest.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/User_Assigned_Market__c.object">
+      <PhysicalRelativePath>src/objects/User_Assigned_Market__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZip Include="staticresources/TWS_Sync_Data">
+      <SubType>StaticResourceZip</SubType>
+    </StaticZip>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="staticresources/TWS_Sync_Data/TWS_Sync_Data.twssd">
+      <PhysicalRelativePath>resource-bundles/TWS_Sync_Data/TWS_Sync_Data.twssd</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TWS_Sync_Data</StaticResource>
+      <StaticResourcePath>staticresources/TWS_Sync_Data/TWS_Sync_Data.twssd</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="classes/ContestantController.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/ContestantController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/ContestantController.cls</DependentUpon>
+    </None>
+    <None Include="classes/ContestantControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/ContestantControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/ContestantControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/ContestantService.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/ContestantService.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/ContestantService.cls</DependentUpon>
+    </None>
+    <None Include="classes/ContestantServiceTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/ContestantServiceTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/ContestantServiceTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_Answer.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_Answer.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_Answer.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_AnswerTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_AnswerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_AnswerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_AnyOrder.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_AnyOrder.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_AnyOrder.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_AnyOrderTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_AnyOrderTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_AnyOrderTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ApexMocks.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocks.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ApexMocks.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ApexMocksConfig.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocksConfig.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ApexMocksConfig.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ApexMocksTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocksTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ApexMocksTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ApexMocksUtils.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocksUtils.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ApexMocksUtils.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ApexMocksUtilsTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ApexMocksUtilsTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ApexMocksUtilsTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_Application.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_Application.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_Application.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ApplicationTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ApplicationTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ApplicationTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ArgumentCaptor.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ArgumentCaptor.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ArgumentCaptor.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ArgumentCaptorTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ArgumentCaptorTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ArgumentCaptorTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_IDGenerator.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_IDGenerator.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_IDGenerator.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_IDGeneratorTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_IDGeneratorTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_IDGeneratorTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_IMatcher.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_IMatcher.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_IMatcher.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_Inheritor.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_Inheritor.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_Inheritor.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_InheritorTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_InheritorTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_InheritorTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_InOrder.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_InOrder.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_InOrder.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_InOrderTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_InOrderTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_InOrderTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_InvocationOnMock.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_InvocationOnMock.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_InvocationOnMock.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ISObjectDomain.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ISObjectDomain.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ISObjectDomain.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ISObjectSelector.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ISObjectSelector.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ISObjectSelector.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_ISObjectUnitOfWork.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_ISObjectUnitOfWork.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_ISObjectUnitOfWork.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_Match.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_Match.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_Match.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MatcherDefinitions.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MatcherDefinitions.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MatcherDefinitions.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MatcherDefinitionsTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MatcherDefinitionsTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MatcherDefinitionsTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MatchersReturnValue.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MatchersReturnValue.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MatchersReturnValue.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MatchTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MatchTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MatchTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MethodArgValues.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MethodArgValues.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MethodArgValues.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MethodArgValuesTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MethodArgValuesTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MethodArgValuesTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MethodCountRecorder.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MethodCountRecorder.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MethodCountRecorder.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MethodReturnValue.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MethodReturnValue.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MethodReturnValue.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MethodReturnValueRecorder.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MethodReturnValueRecorder.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MethodReturnValueRecorder.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MethodVerifier.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MethodVerifier.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MethodVerifier.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_Mocks.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_Mocks.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_Mocks.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_MyList.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_MyList.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_MyList.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_QualifiedMethod.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_QualifiedMethod.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_QualifiedMethod.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_QualifiedMethodAndArgValues.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_QualifiedMethodAndArgValues.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_QualifiedMethodAndArgValues.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_QualifiedMethodTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_QualifiedMethodTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_QualifiedMethodTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_QueryFactory.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_QueryFactory.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_QueryFactory.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_QueryFactoryTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_QueryFactoryTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_QueryFactoryTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SecurityUtils.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SecurityUtils.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SecurityUtils.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SecurityUtilsTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SecurityUtilsTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SecurityUtilsTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectDescribe.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectDescribe.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectDescribe.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectDescribeTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectDescribeTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectDescribeTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectDomain.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectDomain.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectDomain.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectDomainTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectDomainTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectDomainTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectMocks.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectMocks.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectMocks.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectSelector.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectSelector.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectSelector.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectSelectorTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectSelectorTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectSelectorTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectUnitOfWork.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectUnitOfWork.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectUnitOfWork.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SObjectUnitOfWorkTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SObjectUnitOfWorkTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SObjectUnitOfWorkTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_StringBuilder.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_StringBuilder.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_StringBuilder.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_StringBuilderTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_StringBuilderTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_StringBuilderTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_System.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_System.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_System.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_SystemTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_SystemTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_SystemTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/fflib_VerificationMode.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/fflib_VerificationMode.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/fflib_VerificationMode.cls</DependentUpon>
+    </None>
+    <None Include="classes/RaceController.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/RaceController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/RaceController.cls</DependentUpon>
+    </None>
+    <None Include="classes/RaceControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/RaceControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/RaceControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/RaceService.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/RaceService.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/RaceService.cls</DependentUpon>
+    </None>
+    <None Include="classes/RaceServiceTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/RaceServiceTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/RaceServiceTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/SeasonController.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/SeasonController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/SeasonController.cls</DependentUpon>
+    </None>
+    <None Include="classes/SeasonControllerTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/SeasonControllerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/SeasonControllerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/SeasonNewsletterScheduler.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/SeasonNewsletterScheduler.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/SeasonNewsletterScheduler.cls</DependentUpon>
+    </None>
+    <None Include="classes/SeasonNewsletterSchedulerTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/SeasonNewsletterSchedulerTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/SeasonNewsletterSchedulerTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/SeasonService.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/SeasonService.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/SeasonService.cls</DependentUpon>
+    </None>
+    <None Include="classes/SeasonServiceTest.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/SeasonServiceTest.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/SeasonServiceTest.cls</DependentUpon>
+    </None>
+    <None Include="classes/TestClass.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/TestClass.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/TestClass.cls</DependentUpon>
+    </None>
+  </ItemGroup>
+</Project>
