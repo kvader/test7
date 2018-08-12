@@ -5,7 +5,7 @@ public with sharing class ContestantController
     }
 
     public PageReference awardPoints()
-    {//test other test
+    {//test other test2
         ContestantService.awardChampionshipPoints(null);
         
         return null;
